@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my portfilio</title>
+    <link rel="icon" href="res/head-icon.jpg" type="img/x-icon">
+</head>
+<body>
+    <!-- the header will contain my navigation bar and the home page -->
+    <header style="margin-top: 30px;">
+        <!-- the navigation bar will help you to visit any section on te site by just one click -->
+        <nav style="position: fixed;top: 0; margin: 10px 5px 15px 800px;">
+            <a href="#HomePage" style="margin-left:1em">Home</a>
+            <a href="#AboutMe" style="margin-left:1em">About Me</a>
+            <a href="#MySkills" style="margin-left:1em">My Skills</a>
+            <a href="#Certifactes" style="margin-left:1em">Certificates</a>
+            <a href="#Leisures" style="margin-left:1em">Leisures</a>
+            <a href="#ContactMe" style="margin-left:1em">Contact Me</a>
+        </nav>
+        <!-- this div will containe my profil pic, my name and a descriptif audio -->
+        <section style="background-color:tan;">
+            <a name="HomePage"> </a>
+            <img src="res/meriam.jpg" alt="my profil photo" style="margin: 10px 5px 15px 30px;">
+            <audio controls style="margin: 10px 5px 15px 450px;">
+                <source src="res/Voice 001.m4a" type="audio/mpeg">
+            </audio>            
+            <h1>HAMDAOUI Mariem</h1>
+            <h3 style="margin: 10px 5px 15px 650px;">Full Stack JS Developer</h3>                        
+        </section>
+    </header>
+    <!-- the main  will have 4 sections where I talk about myself, list my skills, put my certificates and my leisure -->
+    <main>
+        <!-- about me section -->
+        <section>
+            <a name="AboutMe"></a>
+            <div>
+                <h2 style="text-align: center;color: darkgoldenrod;">About Me</h2>
+                
+                <p>I'm a network engineer, I love to organize and designate so I decided to learn 
+                        the web developpement, I founded amusing and I enjoy it<br>
+                    This is my first web site and I'm gonna list my skills and my certificates on it<br>
+                    You can find my resume <a href="res/HAMDAOUI Mariem.pdf">here</a> 
+                </p>
+            </div>
+        </section>
+        <!-- my skills section -->
+        <section>
+            <a name="MySkills"></a>
+            <h2 style="text-align: center;color: darkgoldenrod;">My Skills</h2>
+            <table border="2" style="table-layout: fixed; width: 50%; margin-left: auto; margin-right: auto;"> 
+                <tr>
+                    <th> <h3>Hard Skills</h3></th>
+                    <th><h3>Soft-Skills</h3></th>
+                </tr>
+                <tr>
+                    <td>
+                        HTML5, CSS3, JS, .Net, JEE, C, C++, Android,                          
+                    </td> 
+                    <td>                             
+                        Confidence, Mutual respect,Active listening, Conflict management,
+                        Idea exchange, Organization, Open-mindedness, Negotiation, Brainstorming
+                        Decision making, Innovation, Mind mapping, Dependability,Commitment, Self-motivated
+                        Professionalism,Teamwork, Tolerance,Public speaking                                     
+                    </td>                                  
+                </tr>                                    
+            </table>
+        </section>
+
+        <!-- certificates section -->
+        <section>
+            <a name="Certificates"></a>
+            <h2 style="text-align: center;color: darkgoldenrod;">Certificates</h2>
+            <div style="display: grid; grid-template-columns: 50% 50%;">
+                <img src="res/dot_net_certif.jpg" alt=".net certif" width="650" height="650">
+                <img src="res/java_certif.jpg" alt="jee certif"  width="650" height="650">
+                <img src="res/softskills.jpg" alt="softskills certif"  width="650" height="650">
+                <img src="res/data_algo_certif.jpg" alt="data & algo certif"  width="650" height="650">
+            </div>          
+        </section>
+
+        <!-- leisure section -->
+        <section>
+            <a name="Leisures"></a>
+            <h2 style="text-align: center;color: darkgoldenrod;">Leisures</h2>
+            <ul style="text-align: center; list-style-type: none;">
+                <li>Fitness</li>
+                <li>Trek</li>
+                <li>Reading</li>
+                <li>Writting</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- In the footer you find my contacts -->
+    <footer>        
+        <section>
+            <a name="ContactMe"></a>
+            <h2 style="text-align: center;color: darkgoldenrod;">Contact Me</h2>
+            <!-- first div is for my personal contact -->
+            <div>
+                <!-- my phone number -->
+                <div>
+                    <img src="res/mobile.png" alt="mobile_icon" width="25" height="25">
+                    <a href="tel:+21655803315"> (+216) 55 803 315</a>
+                </div>
+                <!-- my home address -->
+                <div style="display: flex; align-items: center; ">
+                    <img src="res/address.png" alt="address_icon" width="20" height="20">                    
+                    <p>11 Rue El Ikhouen Hafouz Wed Gueryena El Aguba Tunis</p>
+                </div>  
+                <!-- my address email   -->
+                <div>
+                    <img src="res/gmail.png" alt="gmail_icon" width="25" height="25">
+                    <a href="https://mail.google.com/mail">hamdaoui.meriam85@gmail.com</a>
+                </div>
+            </div>
+            <!-- second div is for my social medias contacts -->
+            <div style="margin-top: 70px;">
+                <!-- linkedin profil -->
+                <a href="http://www.linkedin.com/in/mariem-hamdaoui-6186b273">
+                    <img src="https://icon-library.com/images/linkedin-icon-for-resume/linkedin-icon-for-resume-0.jpg" 
+                        alt="linkedin_icon" width="40" height="40">
+                </a>
+                <!-- github profil -->
+                <a href="https://github.com/meriam-hamdaoui">
+                    <img src="https://icon-library.com/images/github-icon-for-resume/github-icon-for-resume-8.jpg" 
+                        alt="gmail_icon" width="40" height="40">
+                </a>
+                <!-- stackoverflow profil -->
+                <a href="https://stackoverflow.com/users/17482391/maya">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuMid-S1JNfO7Dww8BE5yp-XEGOd96v3RxbFrn3Mkx09pATSKjyw5vqX5EH1PgOZ_bNY&usqp=CAU" 
+                    alt="stackoverflow_icon" width="40" height="40">
+                </a>
+            </div>
+            <!-- Or you just send me a message in here -->
+            <div style="margin: 0 5px 15px 450px; display: flex ;align-items: center;">
+                <form action="#" > 
+                    <label for="email"> 
+                        Email: <input id="email" placeholder="Enter your email"/>
+                    </label>
+                    <label for="messages" style="margin-left:2em"> 
+                        Messages: <textarea id="messages"> Your Message</textarea>
+                    </label>
+                    <input type="submit" value="Send Message" style="margin-left:2em">
+                </form>
+            </div>
+            <p style="text-align: center;">©2022 HAMDAOUI Mariem</p>           
+        </section>
+    </footer>    
+</body>
+</html>
